@@ -1,0 +1,17 @@
+C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Login_page\bin\Debug\net6.0-windows\Login_page.exe
+C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Login_page\bin\Debug\net6.0-windows\Login_page.deps.json
+C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Login_page\bin\Debug\net6.0-windows\Login_page.runtimeconfig.json
+C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Login_page\bin\Debug\net6.0-windows\Login_page.dll
+C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Login_page\bin\Debug\net6.0-windows\Login_page.pdb
+C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Login_page\obj\Debug\net6.0-windows\Login_page.Form1.resources
+C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Login_page\obj\Debug\net6.0-windows\Login_page.csproj.GenerateResource.cache
+C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Login_page\obj\Debug\net6.0-windows\Login_page.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Login_page\obj\Debug\net6.0-windows\Login_page.AssemblyInfoInputs.cache
+C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Login_page\obj\Debug\net6.0-windows\Login_page.AssemblyInfo.cs
+C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Login_page\obj\Debug\net6.0-windows\Login_page.csproj.CoreCompileInputs.cache
+C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Login_page\obj\Debug\net6.0-windows\Login_page.dll
+C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Login_page\obj\Debug\net6.0-windows\refint\Login_page.dll
+C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Login_page\obj\Debug\net6.0-windows\Login_page.pdb
+C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Login_page\obj\Debug\net6.0-windows\Login_page.genruntimeconfig.cache
+C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Login_page\obj\Debug\net6.0-windows\ref\Login_page.dll
+C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Login_page\obj\Debug\net6.0-windows\Login_page.Properties.Resources.resources
