@@ -45,9 +45,10 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label1.Location = new Point(697, 90);
             label1.Name = "label1";
-            label1.Size = new Size(182, 20);
+            label1.Size = new Size(186, 20);
             label1.TabIndex = 0;
             label1.Text = "Welcome To Tourist Ticket";
             label1.Click += label1_Click;
@@ -55,32 +56,37 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(579, 158);
+            label2.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.ForeColor = SystemColors.ActiveCaptionText;
+            label2.Location = new Point(567, 154);
             label2.Name = "label2";
-            label2.Size = new Size(82, 20);
+            label2.Size = new Size(105, 25);
             label2.TabIndex = 1;
             label2.Text = "Username :";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(584, 230);
+            label3.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.Location = new Point(573, 225);
             label3.Name = "label3";
-            label3.Size = new Size(77, 20);
+            label3.Size = new Size(99, 25);
             label3.TabIndex = 2;
             label3.Text = "Password :";
             // 
             // textBox1
             // 
+            textBox1.BackColor = SystemColors.HighlightText;
             textBox1.Location = new Point(679, 155);
             textBox1.Margin = new Padding(3, 4, 3, 4);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(227, 27);
             textBox1.TabIndex = 3;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(679, 223);
+            textBox2.Location = new Point(679, 226);
             textBox2.Margin = new Padding(3, 4, 3, 4);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(227, 27);
@@ -88,6 +94,7 @@
             // 
             // button1
             // 
+            button1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             button1.Location = new Point(893, 0);
             button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
@@ -98,28 +105,39 @@
             // 
             // button2
             // 
-            button2.Location = new Point(679, 305);
+            button2.BackColor = Color.FromArgb(101, 121, 252);
+            button2.BackgroundImageLayout = ImageLayout.Stretch;
+            button2.FlatAppearance.BorderColor = Color.FromArgb(101, 121, 252);
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatAppearance.MouseOverBackColor = Color.FromArgb(0, 153, 255);
+            button2.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
+            button2.ForeColor = SystemColors.HighlightText;
+            button2.Location = new Point(679, 288);
             button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
-            button2.Size = new Size(227, 31);
+            button2.Size = new Size(227, 48);
             button2.TabIndex = 6;
-            button2.Text = "LogIn";
-            button2.UseVisualStyleBackColor = true;
+            button2.Text = "LOGIN ➤";
+            button2.UseVisualStyleBackColor = false;
             // 
             // button3
             // 
-            button3.Location = new Point(679, 413);
+            button3.BackColor = SystemColors.ButtonShadow;
+            button3.FlatAppearance.BorderSize = 0;
+            button3.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
+            button3.ForeColor = SystemColors.HighlightText;
+            button3.Location = new Point(677, 491);
             button3.Margin = new Padding(3, 4, 3, 4);
             button3.Name = "button3";
-            button3.Size = new Size(227, 31);
+            button3.Size = new Size(227, 48);
             button3.TabIndex = 7;
-            button3.Text = "SignUp";
-            button3.UseVisualStyleBackColor = true;
+            button3.Text = "SIGNUP 🖋";
+            button3.UseVisualStyleBackColor = false;
             // 
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(-9, 0);
+            pictureBox1.Location = new Point(-9, 1);
             pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(561, 616);
@@ -129,16 +147,18 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(778, 370);
+            label4.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.Location = new Point(597, 458);
             label4.Name = "label4";
-            label4.Size = new Size(26, 20);
+            label4.Size = new Size(359, 20);
             label4.TabIndex = 9;
-            label4.Text = "or,";
+            label4.Text = "\"If you don't have an account, you can create one.\"";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.White;
             ClientSize = new Size(982, 616);
             Controls.Add(label4);
             Controls.Add(pictureBox1);
@@ -153,6 +173,7 @@
             Margin = new Padding(3, 4, 3, 4);
             Name = "Form1";
             Text = "Ticket With C#";
+            Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
