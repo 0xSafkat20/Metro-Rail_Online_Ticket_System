@@ -87,6 +87,7 @@
             button2.TabIndex = 4;
             button2.Text = "Login";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
@@ -98,6 +99,7 @@
             button3.TabIndex = 5;
             button3.Text = "Register";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
@@ -109,6 +111,7 @@
             button4.TabIndex = 6;
             button4.Text = "Train Information";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // button5
             // 
@@ -136,6 +139,7 @@
             button6.TabIndex = 8;
             button6.Text = "Exit 🏃";
             button6.UseVisualStyleBackColor = false;
+            button6.Click += button6_Click;
             // 
             // pictureBox1
             // 
@@ -171,8 +175,10 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
-            Text = "Dashboard";
+            Text = "Home";
+            Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

@@ -1,3 +1,4 @@
+using System.Windows.Forms;
 namespace Index_page
 {
     public partial class Form1 : Form
@@ -19,12 +20,51 @@ namespace Index_page
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("You are in Home Page");
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+            MaximizeBox = false;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.Owner = this;
+            form2.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            form3.Owner = this;
+            form3.Show();
+            this.Hide();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Are you sure you want to close the form?", "Warning", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (result == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            form4.Owner = this;
+            form4.Show();
+            this.Hide();
         }
     }
 }
