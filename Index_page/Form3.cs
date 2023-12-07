@@ -84,6 +84,11 @@ namespace Index_page
                 Application.Exit();
             }
         }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

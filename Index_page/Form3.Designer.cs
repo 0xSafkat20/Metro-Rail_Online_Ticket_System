@@ -305,6 +305,7 @@
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form3";
             Text = "SIgn Up";
+            Load += Form3_Load;
             ResumeLayout(false);
             PerformLayout();
         }
