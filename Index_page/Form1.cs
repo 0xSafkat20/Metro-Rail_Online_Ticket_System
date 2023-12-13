@@ -20,7 +20,11 @@ namespace Index_page
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("You are in Home Page");
+            // MessageBox.Show("You are in Home Page");
+            Seat seat = new Seat();
+            seat.Owner = this;
+            seat.Show();
+            this.Hide();
         }
 
         private void button5_Click(object sender, EventArgs e)

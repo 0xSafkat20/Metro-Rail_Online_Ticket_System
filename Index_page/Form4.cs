@@ -19,7 +19,6 @@ namespace Index_page
 
         private void Form4_Load(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Maximized;
             MaximizeBox = false;
         }
 
@@ -48,9 +47,9 @@ namespace Index_page
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            button1.BackColor = Color.Red;
+
         }
     }
 }
