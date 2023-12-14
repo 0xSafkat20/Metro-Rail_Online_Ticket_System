@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Admin));
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
@@ -44,15 +45,17 @@
             dataGridView1 = new DataGridView();
             button9 = new Button();
             button10 = new Button();
+            bindingSource1 = new BindingSource(components);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)bindingSource1).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
             // 
-            pictureBox1.BackColor = SystemColors.ActiveBorder;
+            pictureBox1.BackColor = SystemColors.Highlight;
             pictureBox1.Location = new Point(-10, 1);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(1454, 115);
@@ -61,7 +64,7 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.BackColor = SystemColors.ActiveCaption;
+            pictureBox2.BackColor = Color.Silver;
             pictureBox2.Location = new Point(-1, 117);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(282, 730);
@@ -93,11 +96,11 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(114, 179);
+            label1.Location = new Point(97, 179);
             label1.Name = "label1";
-            label1.Size = new Size(50, 20);
+            label1.Size = new Size(83, 20);
             label1.TabIndex = 4;
-            label1.Text = "label1";
+            label1.Text = "UsertName";
             // 
             // button2
             // 
@@ -231,6 +234,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)bindingSource1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -252,5 +256,6 @@
         private DataGridView dataGridView1;
         private Button button9;
         private Button button10;
+        private BindingSource bindingSource1;
     }
 }

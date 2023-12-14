@@ -34,6 +34,10 @@
             button2 = new Button();
             button3 = new Button();
             button4 = new Button();
+            label2 = new Label();
+            label3 = new Label();
+            label4 = new Label();
+            label5 = new Label();
             SuspendLayout();
             // 
             // label1
@@ -82,17 +86,62 @@
             button4.TabIndex = 4;
             button4.UseVisualStyleBackColor = true;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(87, 296);
+            label2.Name = "label2";
+            label2.Size = new Size(58, 25);
+            label2.TabIndex = 5;
+            label2.Text = "Bkash";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.Location = new Point(277, 295);
+            label3.Name = "label3";
+            label3.Size = new Size(69, 25);
+            label3.TabIndex = 5;
+            label3.Text = "Nogod";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.Location = new Point(471, 296);
+            label4.Name = "label4";
+            label4.Size = new Size(107, 25);
+            label4.TabIndex = 5;
+            label4.Text = "Master Csrd";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label5.Location = new Point(707, 296);
+            label5.Name = "label5";
+            label5.Size = new Size(49, 25);
+            label5.TabIndex = 5;
+            label5.Text = "বাকী";
+            // 
             // Payment
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.HighlightText;
             ClientSize = new Size(860, 555);
+            Controls.Add(label5);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(label2);
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Payment";
             Text = "Payment";
             Load += Payment_Load;
@@ -107,5 +156,9 @@
         private Button button2;
         private Button button3;
         private Button button4;
+        private Label label2;
+        private Label label3;
+        private Label label4;
+        private Label label5;
     }
 }

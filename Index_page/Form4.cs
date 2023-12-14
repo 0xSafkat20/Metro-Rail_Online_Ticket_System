@@ -51,5 +51,13 @@ namespace Index_page
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Seat seat =new Seat();
+            seat.Show();
+            this.Hide();
+
+        }
     }
 }

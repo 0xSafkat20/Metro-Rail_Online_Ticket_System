@@ -28,23 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button33 = new Button();
-            button30 = new Button();
-            button27 = new Button();
-            button32 = new Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Seat));
             button24 = new Button();
-            button29 = new Button();
             button21 = new Button();
-            button26 = new Button();
             button18 = new Button();
             button23 = new Button();
             button15 = new Button();
             button20 = new Button();
-            button31 = new Button();
             button11 = new Button();
-            button28 = new Button();
             button17 = new Button();
-            button25 = new Button();
             button8 = new Button();
             button22 = new Button();
             button14 = new Button();
@@ -67,55 +59,19 @@
             label4 = new Label();
             label6 = new Label();
             label5 = new Label();
+            radioButton1 = new RadioButton();
+            radioButton2 = new RadioButton();
+            radioButton3 = new RadioButton();
+            groupBox1 = new GroupBox();
+            radioButton5 = new RadioButton();
+            radioButton6 = new RadioButton();
+            radioButton4 = new RadioButton();
+            label7 = new Label();
+            label8 = new Label();
+            label9 = new Label();
+            label10 = new Label();
+            groupBox1.SuspendLayout();
             SuspendLayout();
-            // 
-            // button33
-            // 
-            button33.BackColor = Color.OrangeRed;
-            button33.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button33.ForeColor = SystemColors.HighlightText;
-            button33.Location = new Point(730, 892);
-            button33.Name = "button33";
-            button33.Size = new Size(58, 45);
-            button33.TabIndex = 1;
-            button33.Text = "K3";
-            button33.UseVisualStyleBackColor = false;
-            // 
-            // button30
-            // 
-            button30.BackColor = Color.OrangeRed;
-            button30.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button30.ForeColor = SystemColors.HighlightText;
-            button30.Location = new Point(730, 817);
-            button30.Name = "button30";
-            button30.Size = new Size(58, 45);
-            button30.TabIndex = 31;
-            button30.Text = "J3";
-            button30.UseVisualStyleBackColor = false;
-            // 
-            // button27
-            // 
-            button27.BackColor = Color.OrangeRed;
-            button27.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button27.ForeColor = SystemColors.HighlightText;
-            button27.Location = new Point(726, 742);
-            button27.Name = "button27";
-            button27.Size = new Size(58, 45);
-            button27.TabIndex = 30;
-            button27.Text = "I3";
-            button27.UseVisualStyleBackColor = false;
-            // 
-            // button32
-            // 
-            button32.BackColor = Color.OrangeRed;
-            button32.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button32.ForeColor = SystemColors.HighlightText;
-            button32.Location = new Point(481, 892);
-            button32.Name = "button32";
-            button32.Size = new Size(58, 45);
-            button32.TabIndex = 29;
-            button32.Text = "K1";
-            button32.UseVisualStyleBackColor = false;
             // 
             // button24
             // 
@@ -129,18 +85,6 @@
             button24.Text = "H3";
             button24.UseVisualStyleBackColor = false;
             // 
-            // button29
-            // 
-            button29.BackColor = Color.OrangeRed;
-            button29.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button29.ForeColor = SystemColors.HighlightText;
-            button29.Location = new Point(481, 817);
-            button29.Name = "button29";
-            button29.Size = new Size(58, 45);
-            button29.TabIndex = 27;
-            button29.Text = "J1";
-            button29.UseVisualStyleBackColor = false;
-            // 
             // button21
             // 
             button21.BackColor = Color.OrangeRed;
@@ -152,18 +96,6 @@
             button21.TabIndex = 26;
             button21.Text = "G3";
             button21.UseVisualStyleBackColor = false;
-            // 
-            // button26
-            // 
-            button26.BackColor = Color.OrangeRed;
-            button26.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button26.ForeColor = SystemColors.HighlightText;
-            button26.Location = new Point(481, 742);
-            button26.Name = "button26";
-            button26.Size = new Size(58, 45);
-            button26.TabIndex = 25;
-            button26.Text = "I1";
-            button26.UseVisualStyleBackColor = false;
             // 
             // button18
             // 
@@ -212,18 +144,6 @@
             button20.Text = "C3";
             button20.UseVisualStyleBackColor = false;
             // 
-            // button31
-            // 
-            button31.BackColor = Color.OrangeRed;
-            button31.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button31.ForeColor = SystemColors.HighlightText;
-            button31.Location = new Point(564, 892);
-            button31.Name = "button31";
-            button31.Size = new Size(58, 45);
-            button31.TabIndex = 20;
-            button31.Text = "K2";
-            button31.UseVisualStyleBackColor = false;
-            // 
             // button11
             // 
             button11.BackColor = Color.LimeGreen;
@@ -234,18 +154,6 @@
             button11.TabIndex = 19;
             button11.Text = "D3";
             button11.UseVisualStyleBackColor = false;
-            // 
-            // button28
-            // 
-            button28.BackColor = Color.OrangeRed;
-            button28.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button28.ForeColor = SystemColors.HighlightText;
-            button28.Location = new Point(564, 817);
-            button28.Name = "button28";
-            button28.Size = new Size(58, 45);
-            button28.TabIndex = 18;
-            button28.Text = "J2";
-            button28.UseVisualStyleBackColor = false;
             // 
             // button17
             // 
@@ -258,18 +166,6 @@
             button17.TabIndex = 32;
             button17.Text = "A3";
             button17.UseVisualStyleBackColor = false;
-            // 
-            // button25
-            // 
-            button25.BackColor = Color.OrangeRed;
-            button25.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button25.ForeColor = SystemColors.HighlightText;
-            button25.Location = new Point(564, 742);
-            button25.Name = "button25";
-            button25.Size = new Size(58, 45);
-            button25.TabIndex = 17;
-            button25.Text = "I2";
-            button25.UseVisualStyleBackColor = false;
             // 
             // button8
             // 
@@ -506,34 +402,161 @@
             label5.Text = "_ _ _ _ _ _ _ _                    _ _ _ _ _ _ _ _";
             label5.Click += label5_Click;
             // 
+            // radioButton1
+            // 
+            radioButton1.AutoSize = true;
+            radioButton1.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
+            radioButton1.Location = new Point(103, 201);
+            radioButton1.Name = "radioButton1";
+            radioButton1.Size = new Size(134, 54);
+            radioButton1.TabIndex = 36;
+            radioButton1.TabStop = true;
+            radioButton1.Text = "Arrive 8 AM\r\nReach  3 PM";
+            radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            radioButton2.AutoSize = true;
+            radioButton2.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
+            radioButton2.Location = new Point(103, 289);
+            radioButton2.Name = "radioButton2";
+            radioButton2.Size = new Size(138, 54);
+            radioButton2.TabIndex = 37;
+            radioButton2.TabStop = true;
+            radioButton2.Text = "Arrive 12 PM\r\nReach 5 PM";
+            radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton3
+            // 
+            radioButton3.AutoSize = true;
+            radioButton3.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
+            radioButton3.Location = new Point(103, 516);
+            radioButton3.Name = "radioButton3";
+            radioButton3.Size = new Size(138, 54);
+            radioButton3.TabIndex = 38;
+            radioButton3.TabStop = true;
+            radioButton3.Text = "Arrive 10 PM\r\nReach 7 AM";
+            radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // groupBox1
+            // 
+            groupBox1.BackColor = SystemColors.HighlightText;
+            groupBox1.Controls.Add(radioButton5);
+            groupBox1.Controls.Add(radioButton6);
+            groupBox1.Controls.Add(radioButton4);
+            groupBox1.Controls.Add(radioButton1);
+            groupBox1.Controls.Add(radioButton3);
+            groupBox1.Controls.Add(radioButton2);
+            groupBox1.Location = new Point(-4, -4);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(741, 954);
+            groupBox1.TabIndex = 39;
+            groupBox1.TabStop = false;
+            // 
+            // radioButton5
+            // 
+            radioButton5.AutoSize = true;
+            radioButton5.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
+            radioButton5.Location = new Point(471, 289);
+            radioButton5.Name = "radioButton5";
+            radioButton5.Size = new Size(131, 54);
+            radioButton5.TabIndex = 37;
+            radioButton5.TabStop = true;
+            radioButton5.Text = "Arrive 2 PM\r\nReach 9 PM";
+            radioButton5.UseVisualStyleBackColor = true;
+            // 
+            // radioButton6
+            // 
+            radioButton6.AutoSize = true;
+            radioButton6.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
+            radioButton6.Location = new Point(471, 201);
+            radioButton6.Name = "radioButton6";
+            radioButton6.Size = new Size(139, 54);
+            radioButton6.TabIndex = 36;
+            radioButton6.TabStop = true;
+            radioButton6.Text = "Arrive 10 AM\r\nReach 5 PM";
+            radioButton6.UseVisualStyleBackColor = true;
+            // 
+            // radioButton4
+            // 
+            radioButton4.AutoSize = true;
+            radioButton4.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
+            radioButton4.Location = new Point(103, 606);
+            radioButton4.Name = "radioButton4";
+            radioButton4.Size = new Size(138, 54);
+            radioButton4.TabIndex = 38;
+            radioButton4.TabStop = true;
+            radioButton4.Text = "Arrive 12 PM\r\nReach 9 AM";
+            radioButton4.UseVisualStyleBackColor = true;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label7.Location = new Point(242, 56);
+            label7.Name = "label7";
+            label7.Size = new Size(307, 41);
+            label7.TabIndex = 40;
+            label7.Text = "Avaliable Trains Time";
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new Font("Segoe UI Semibold", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
+            label8.ForeColor = Color.Green;
+            label8.Location = new Point(71, 137);
+            label8.Name = "label8";
+            label8.Size = new Size(193, 38);
+            label8.TabIndex = 41;
+            label8.Text = "SkyRail Metro";
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new Font("Segoe UI Semibold", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
+            label9.ForeColor = Color.Green;
+            label9.Location = new Point(71, 450);
+            label9.Name = "label9";
+            label9.Size = new Size(214, 38);
+            label9.TabIndex = 41;
+            label9.Text = "CityRail Express";
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Font = new Font("Segoe UI Semibold", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
+            label10.ForeColor = Color.Green;
+            label10.Location = new Point(443, 137);
+            label10.Name = "label10";
+            label10.Size = new Size(252, 38);
+            label10.TabIndex = 41;
+            label10.Text = "Urban Express Rail";
+            // 
             // Seat
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.HighlightText;
             ClientSize = new Size(1206, 952);
+            Controls.Add(label9);
+            Controls.Add(label10);
+            Controls.Add(label8);
+            Controls.Add(label7);
+            Controls.Add(groupBox1);
             Controls.Add(label5);
             Controls.Add(label6);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(button33);
-            Controls.Add(button30);
-            Controls.Add(button27);
-            Controls.Add(button32);
             Controls.Add(button24);
-            Controls.Add(button29);
             Controls.Add(button21);
-            Controls.Add(button26);
             Controls.Add(button18);
             Controls.Add(button23);
             Controls.Add(button15);
             Controls.Add(button20);
-            Controls.Add(button31);
             Controls.Add(button11);
-            Controls.Add(button28);
             Controls.Add(button17);
-            Controls.Add(button25);
             Controls.Add(button8);
             Controls.Add(button22);
             Controls.Add(button14);
@@ -550,32 +573,25 @@
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Seat";
             Text = "Seat";
             Load += Seat_Load;
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private Button button33;
-        private Button button30;
-        private Button button27;
-        private Button button32;
         private Button button24;
-        private Button button29;
         private Button button21;
-        private Button button26;
         private Button button18;
         private Button button23;
         private Button button15;
         private Button button20;
-        private Button button31;
         private Button button11;
-        private Button button28;
         private Button button17;
-        private Button button25;
         private Button button8;
         private Button button22;
         private Button button14;
@@ -598,5 +614,16 @@
         private Label label4;
         private Label label6;
         private Label label5;
+        private RadioButton radioButton1;
+        private RadioButton radioButton2;
+        private RadioButton radioButton3;
+        private GroupBox groupBox1;
+        private Label label7;
+        private Label label8;
+        private RadioButton radioButton4;
+        private Label label9;
+        private Label label10;
+        private RadioButton radioButton5;
+        private RadioButton radioButton6;
     }
 }

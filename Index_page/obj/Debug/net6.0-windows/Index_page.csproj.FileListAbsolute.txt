@@ -27,3 +27,5 @@ C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-window
 C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\Index_page.csproj.CopyComplete
 C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\Index_page.Form4.resources
 C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\Index_page.Seat.resources
+C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\Index_page.Admin.resources
+C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\Index_page.Payment.resources
