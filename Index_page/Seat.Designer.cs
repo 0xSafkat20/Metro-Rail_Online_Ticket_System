@@ -63,6 +63,8 @@
             radioButton2 = new RadioButton();
             radioButton3 = new RadioButton();
             groupBox1 = new GroupBox();
+            button26 = new Button();
+            button25 = new Button();
             radioButton5 = new RadioButton();
             radioButton6 = new RadioButton();
             radioButton4 = new RadioButton();
@@ -70,6 +72,7 @@
             label8 = new Label();
             label9 = new Label();
             label10 = new Label();
+            button27 = new Button();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
@@ -78,7 +81,7 @@
             button24.BackColor = Color.OrangeRed;
             button24.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             button24.ForeColor = SystemColors.HighlightText;
-            button24.Location = new Point(1037, 793);
+            button24.Location = new Point(1051, 758);
             button24.Name = "button24";
             button24.Size = new Size(58, 45);
             button24.TabIndex = 28;
@@ -90,7 +93,7 @@
             button21.BackColor = Color.OrangeRed;
             button21.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             button21.ForeColor = SystemColors.HighlightText;
-            button21.Location = new Point(1037, 742);
+            button21.Location = new Point(1051, 707);
             button21.Name = "button21";
             button21.Size = new Size(58, 45);
             button21.TabIndex = 26;
@@ -102,7 +105,7 @@
             button18.BackColor = Color.OrangeRed;
             button18.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             button18.ForeColor = SystemColors.HighlightText;
-            button18.Location = new Point(1037, 512);
+            button18.Location = new Point(1051, 477);
             button18.Name = "button18";
             button18.Size = new Size(58, 45);
             button18.TabIndex = 24;
@@ -114,7 +117,7 @@
             button23.BackColor = Color.OrangeRed;
             button23.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             button23.ForeColor = SystemColors.HighlightText;
-            button23.Location = new Point(849, 742);
+            button23.Location = new Point(863, 707);
             button23.Name = "button23";
             button23.Size = new Size(58, 45);
             button23.TabIndex = 23;
@@ -125,19 +128,20 @@
             // 
             button15.BackColor = Color.LimeGreen;
             button15.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button15.Location = new Point(1037, 130);
+            button15.Location = new Point(1051, 95);
             button15.Name = "button15";
             button15.Size = new Size(58, 45);
             button15.TabIndex = 22;
             button15.Text = "B2";
             button15.UseVisualStyleBackColor = false;
+            button15.Click += button15_Click;
             // 
             // button20
             // 
             button20.BackColor = Color.OrangeRed;
             button20.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             button20.ForeColor = SystemColors.HighlightText;
-            button20.Location = new Point(849, 461);
+            button20.Location = new Point(863, 426);
             button20.Name = "button20";
             button20.Size = new Size(58, 45);
             button20.TabIndex = 21;
@@ -148,7 +152,7 @@
             // 
             button11.BackColor = Color.LimeGreen;
             button11.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button11.Location = new Point(1037, 461);
+            button11.Location = new Point(1051, 426);
             button11.Name = "button11";
             button11.Size = new Size(58, 45);
             button11.TabIndex = 19;
@@ -160,7 +164,7 @@
             button17.BackColor = Color.OrangeRed;
             button17.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             button17.ForeColor = SystemColors.HighlightText;
-            button17.Location = new Point(849, 181);
+            button17.Location = new Point(863, 146);
             button17.Name = "button17";
             button17.Size = new Size(58, 45);
             button17.TabIndex = 32;
@@ -171,7 +175,7 @@
             // 
             button8.BackColor = Color.LimeGreen;
             button8.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button8.Location = new Point(1037, 410);
+            button8.Location = new Point(1051, 375);
             button8.Name = "button8";
             button8.Size = new Size(58, 45);
             button8.TabIndex = 15;
@@ -183,7 +187,7 @@
             button22.BackColor = Color.OrangeRed;
             button22.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             button22.ForeColor = SystemColors.HighlightText;
-            button22.Location = new Point(849, 793);
+            button22.Location = new Point(863, 758);
             button22.Name = "button22";
             button22.Size = new Size(58, 45);
             button22.TabIndex = 14;
@@ -194,7 +198,7 @@
             // 
             button14.BackColor = Color.LimeGreen;
             button14.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button14.Location = new Point(1037, 691);
+            button14.Location = new Point(1051, 656);
             button14.Name = "button14";
             button14.Size = new Size(58, 45);
             button14.TabIndex = 13;
@@ -206,7 +210,7 @@
             button19.BackColor = Color.OrangeRed;
             button19.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             button19.ForeColor = SystemColors.HighlightText;
-            button19.Location = new Point(849, 512);
+            button19.Location = new Point(863, 477);
             button19.Name = "button19";
             button19.Size = new Size(58, 45);
             button19.TabIndex = 12;
@@ -217,7 +221,7 @@
             // 
             button6.BackColor = Color.LimeGreen;
             button6.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button6.Location = new Point(1037, 359);
+            button6.Location = new Point(1051, 324);
             button6.Name = "button6";
             button6.Size = new Size(58, 45);
             button6.TabIndex = 11;
@@ -229,7 +233,7 @@
             button16.BackColor = Color.OrangeRed;
             button16.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             button16.ForeColor = SystemColors.HighlightText;
-            button16.Location = new Point(849, 232);
+            button16.Location = new Point(863, 197);
             button16.Name = "button16";
             button16.Size = new Size(58, 45);
             button16.TabIndex = 10;
@@ -240,7 +244,7 @@
             // 
             button10.BackColor = Color.LimeGreen;
             button10.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button10.Location = new Point(849, 639);
+            button10.Location = new Point(863, 604);
             button10.Name = "button10";
             button10.Size = new Size(58, 45);
             button10.TabIndex = 9;
@@ -251,7 +255,7 @@
             // 
             button13.BackColor = Color.LimeGreen;
             button13.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button13.Location = new Point(1037, 639);
+            button13.Location = new Point(1051, 604);
             button13.Name = "button13";
             button13.Size = new Size(58, 45);
             button13.TabIndex = 8;
@@ -262,7 +266,7 @@
             // 
             button7.BackColor = Color.LimeGreen;
             button7.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button7.Location = new Point(849, 359);
+            button7.Location = new Point(863, 324);
             button7.Name = "button7";
             button7.Size = new Size(58, 45);
             button7.TabIndex = 7;
@@ -273,7 +277,7 @@
             // 
             button12.BackColor = Color.LimeGreen;
             button12.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button12.Location = new Point(849, 691);
+            button12.Location = new Point(863, 656);
             button12.Name = "button12";
             button12.Size = new Size(58, 45);
             button12.TabIndex = 6;
@@ -284,7 +288,7 @@
             // 
             button9.BackColor = Color.LimeGreen;
             button9.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button9.Location = new Point(849, 410);
+            button9.Location = new Point(863, 375);
             button9.Name = "button9";
             button9.Size = new Size(58, 45);
             button9.TabIndex = 5;
@@ -295,7 +299,7 @@
             // 
             button5.BackColor = Color.LimeGreen;
             button5.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button5.Location = new Point(1037, 232);
+            button5.Location = new Point(1051, 197);
             button5.Name = "button5";
             button5.Size = new Size(58, 45);
             button5.TabIndex = 4;
@@ -306,50 +310,54 @@
             // 
             button4.BackColor = Color.LimeGreen;
             button4.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button4.Location = new Point(1037, 182);
+            button4.Location = new Point(1051, 147);
             button4.Name = "button4";
             button4.Size = new Size(58, 45);
             button4.TabIndex = 3;
             button4.Text = "B3";
             button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
             // 
             // button3
             // 
             button3.BackColor = Color.LimeGreen;
             button3.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button3.Location = new Point(1037, 79);
+            button3.Location = new Point(1051, 44);
             button3.Name = "button3";
             button3.Size = new Size(58, 45);
             button3.TabIndex = 2;
             button3.Text = "B1";
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // button2
             // 
             button2.BackColor = Color.LimeGreen;
             button2.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button2.Location = new Point(849, 130);
+            button2.Location = new Point(863, 95);
             button2.Name = "button2";
             button2.Size = new Size(58, 45);
             button2.TabIndex = 16;
             button2.Text = "A2";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
             button1.BackColor = Color.LimeGreen;
             button1.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button1.Location = new Point(849, 79);
+            button1.Location = new Point(863, 44);
             button1.Name = "button1";
             button1.Size = new Size(58, 45);
             button1.TabIndex = 33;
             button1.Text = "A1";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(849, 285);
+            label1.Location = new Point(863, 250);
             label1.Name = "label1";
             label1.Size = new Size(13, 60);
             label1.TabIndex = 34;
@@ -358,7 +366,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(1082, 286);
+            label2.Location = new Point(1096, 251);
             label2.Name = "label2";
             label2.Size = new Size(13, 60);
             label2.TabIndex = 34;
@@ -367,7 +375,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(849, 568);
+            label3.Location = new Point(863, 533);
             label3.Name = "label3";
             label3.Size = new Size(13, 60);
             label3.TabIndex = 34;
@@ -376,7 +384,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(1082, 567);
+            label4.Location = new Point(1096, 532);
             label4.Name = "label4";
             label4.Size = new Size(13, 60);
             label4.TabIndex = 34;
@@ -385,7 +393,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(849, 56);
+            label6.Location = new Point(863, 21);
             label6.Name = "label6";
             label6.Size = new Size(241, 20);
             label6.TabIndex = 35;
@@ -395,7 +403,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(854, 834);
+            label5.Location = new Point(868, 799);
             label5.Name = "label5";
             label5.Size = new Size(241, 20);
             label5.TabIndex = 35;
@@ -441,6 +449,8 @@
             // groupBox1
             // 
             groupBox1.BackColor = SystemColors.HighlightText;
+            groupBox1.Controls.Add(button27);
+            groupBox1.Controls.Add(button25);
             groupBox1.Controls.Add(radioButton5);
             groupBox1.Controls.Add(radioButton6);
             groupBox1.Controls.Add(radioButton4);
@@ -452,6 +462,30 @@
             groupBox1.Size = new Size(741, 954);
             groupBox1.TabIndex = 39;
             groupBox1.TabStop = false;
+            // 
+            // button26
+            // 
+            button26.BackColor = Color.DodgerBlue;
+            button26.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            button26.ForeColor = SystemColors.HighlightText;
+            button26.Location = new Point(915, 863);
+            button26.Name = "button26";
+            button26.Size = new Size(154, 46);
+            button26.TabIndex = 40;
+            button26.Text = "Refresh ↻";
+            button26.UseVisualStyleBackColor = false;
+            button26.Click += button26_Click;
+            // 
+            // button25
+            // 
+            button25.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
+            button25.Location = new Point(0, 0);
+            button25.Name = "button25";
+            button25.Size = new Size(120, 41);
+            button25.TabIndex = 39;
+            button25.Text = "〈〈";
+            button25.UseVisualStyleBackColor = true;
+            button25.Click += button25_Click;
             // 
             // radioButton5
             // 
@@ -532,12 +566,26 @@
             label10.TabIndex = 41;
             label10.Text = "Urban Express Rail";
             // 
+            // button27
+            // 
+            button27.BackColor = Color.Green;
+            button27.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
+            button27.ForeColor = SystemColors.HighlightText;
+            button27.Location = new Point(220, 759);
+            button27.Name = "button27";
+            button27.Size = new Size(246, 64);
+            button27.TabIndex = 40;
+            button27.Text = "Confirm and Payment";
+            button27.UseVisualStyleBackColor = false;
+            button27.Click += button27_Click;
+            // 
             // Seat
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.HighlightText;
             ClientSize = new Size(1206, 952);
+            Controls.Add(button26);
             Controls.Add(label9);
             Controls.Add(label10);
             Controls.Add(label8);
@@ -575,6 +623,7 @@
             Controls.Add(button1);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Seat";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Seat";
             Load += Seat_Load;
             groupBox1.ResumeLayout(false);
@@ -625,5 +674,8 @@
         private Label label10;
         private RadioButton radioButton5;
         private RadioButton radioButton6;
+        private Button button26;
+        private Button button25;
+        private Button button27;
     }
 }

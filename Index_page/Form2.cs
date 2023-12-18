@@ -98,6 +98,11 @@ namespace Index_page
             Form3 form = new Form3();
             form.Show();
         }
+
+        private void txtemail_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

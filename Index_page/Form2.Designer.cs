@@ -153,6 +153,7 @@
             txtemail.Size = new Size(246, 30);
             txtemail.TabIndex = 9;
             txtemail.Text = "Enter Your Email";
+            txtemail.TextChanged += txtemail_TextChanged;
             txtemail.Enter += textBox1_Enter;
             txtemail.Leave += txtemail_Leave;
             // 
@@ -213,6 +214,7 @@
             Controls.Add(pictureBox1);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form2";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Sign In";
             Load += Form2_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

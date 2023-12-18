@@ -22,7 +22,6 @@ namespace Index_page
         {
             // MessageBox.Show("You are in Home Page");
             Seat seat = new Seat();
-            seat.Owner = this;
             seat.Show();
             this.Hide();
         }
@@ -41,7 +40,6 @@ namespace Index_page
         private void button2_Click(object sender, EventArgs e)
         {
             Form2 form2 = new Form2();
-            form2.Owner = this;
             form2.Show();
             this.Hide();
         }
@@ -49,7 +47,6 @@ namespace Index_page
         private void button3_Click(object sender, EventArgs e)
         {
             Form3 form3 = new Form3();
-            form3.Owner = this;
             form3.Show();
             this.Hide();
         }
@@ -66,7 +63,6 @@ namespace Index_page
         private void button4_Click(object sender, EventArgs e)
         {
             Form4 form4 = new Form4();
-            form4.Owner = this;
             form4.Show();
             this.Hide();
         }

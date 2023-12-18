@@ -38,8 +38,16 @@
             button5 = new Button();
             button6 = new Button();
             pictureBox1 = new PictureBox();
+            pictureBox3 = new PictureBox();
+            pictureBox6 = new PictureBox();
+            pictureBox4 = new PictureBox();
             label3 = new Label();
+            label4 = new Label();
+            label5 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -150,22 +158,75 @@
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
+            // pictureBox3
+            // 
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(204, 795);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(225, 123);
+            pictureBox3.TabIndex = 10;
+            pictureBox3.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
+            pictureBox6.Location = new Point(817, 795);
+            pictureBox6.Name = "pictureBox6";
+            pictureBox6.Size = new Size(225, 123);
+            pictureBox6.TabIndex = 10;
+            pictureBox6.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
+            pictureBox4.Location = new Point(1474, 795);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(225, 123);
+            pictureBox4.TabIndex = 10;
+            pictureBox4.TabStop = false;
+            // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(113, 823);
+            label3.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.Location = new Point(257, 941);
             label3.Name = "label3";
-            label3.Size = new Size(164, 20);
-            label3.TabIndex = 9;
-            label3.Text = "A Simple Project Using ";
+            label3.Size = new Size(130, 20);
+            label3.TabIndex = 11;
+            label3.Text = "Tickets and Offers";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.Location = new Point(861, 941);
+            label4.Name = "label4";
+            label4.Size = new Size(151, 20);
+            label4.TabIndex = 11;
+            label4.Text = "Booking Information";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label5.Location = new Point(1529, 941);
+            label5.Name = "label5";
+            label5.Size = new Size(110, 20);
+            label5.TabIndex = 11;
+            label5.Text = "Our Train Fleet";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1926, 1020);
+            ClientSize = new Size(1924, 1020);
+            Controls.Add(label5);
+            Controls.Add(label4);
             Controls.Add(label3);
+            Controls.Add(pictureBox4);
+            Controls.Add(pictureBox6);
+            Controls.Add(pictureBox3);
             Controls.Add(button6);
             Controls.Add(button5);
             Controls.Add(button4);
@@ -177,9 +238,13 @@
             Controls.Add(pictureBox1);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
+            StartPosition = FormStartPosition.Manual;
             Text = "Home";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -194,6 +259,11 @@
         private Button button5;
         private Button button6;
         private PictureBox pictureBox1;
+        private PictureBox pictureBox3;
+        private PictureBox pictureBox6;
+        private PictureBox pictureBox4;
         private Label label3;
+        private Label label4;
+        private Label label5;
     }
 }

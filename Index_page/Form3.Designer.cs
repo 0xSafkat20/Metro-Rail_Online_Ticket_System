@@ -304,6 +304,7 @@
             Controls.Add(label1);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form3";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "SIgn Up";
             Load += Form3_Load;
             ResumeLayout(false);

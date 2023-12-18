@@ -54,10 +54,50 @@ namespace Index_page
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Seat seat =new Seat();
+            Seat seat = new Seat();
             seat.Show();
             this.Hide();
 
+        }
+
+        private void textBox1_Enter(object sender, EventArgs e)
+        {
+            if (txtfrom.Text == "From Station")
+            {
+                txtfrom.Text = "";
+
+                txtfrom.ForeColor = Color.Black;
+            }
+        }
+
+        private void txtfrom_Leave(object sender, EventArgs e)
+        {
+            if (txtfrom.Text == "")
+            {
+                txtfrom.Text = "From Station";
+
+                txtfrom.ForeColor = Color.Gray;
+            }
+        }
+
+        private void textBox2_Enter(object sender, EventArgs e)
+        {
+            if (txtTo.Text == "To Station")
+            {
+                txtTo.Text = "";
+
+                txtTo.ForeColor = Color.Black;
+            }
+        }
+
+        private void textBox2_Leave(object sender, EventArgs e)
+        {
+            if (txtTo.Text == "")
+            {
+                txtTo.Text = "To Station";
+
+                txtTo.ForeColor = Color.Gray;
+            }
         }
     }
 }

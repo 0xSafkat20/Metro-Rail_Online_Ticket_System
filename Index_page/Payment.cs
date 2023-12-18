@@ -21,5 +21,25 @@ namespace Index_page
         {
             MaximizeBox = false;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Your Payment is Complete");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Your Payment is Complete");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Your Payment is Complete");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Your Payment is Not Complete");
+        }
     }
 }

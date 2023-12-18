@@ -29,40 +29,30 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
-            linkLabel1 = new LinkLabel();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
             label5 = new Label();
             label6 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            txtfrom = new TextBox();
+            txtTo = new TextBox();
             dateTimePicker1 = new DateTimePicker();
             comboBox1 = new ComboBox();
             pictureBox1 = new PictureBox();
             button1 = new Button();
+            label7 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
-            // 
-            // linkLabel1
-            // 
-            linkLabel1.AutoSize = true;
-            linkLabel1.Location = new Point(263, 608);
-            linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(76, 20);
-            linkLabel1.TabIndex = 1;
-            linkLabel1.TabStop = true;
-            linkLabel1.Text = "linkLabel1";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Font = new Font("Segoe UI Semibold", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = Color.Green;
-            label1.Location = new Point(159, 91);
+            label1.Location = new Point(104, 78);
             label1.Name = "label1";
-            label1.Size = new Size(388, 28);
+            label1.Size = new Size(540, 38);
             label1.TabIndex = 2;
             label1.Text = "A Simple Way To Buy Tickets From Home";
             // 
@@ -114,24 +104,28 @@
             label6.TabIndex = 6;
             label6.Text = "Date of Journey";
             // 
-            // textBox1
+            // txtfrom
             // 
-            textBox1.ForeColor = SystemColors.ControlDarkDark;
-            textBox1.Location = new Point(69, 234);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(250, 27);
-            textBox1.TabIndex = 7;
-            textBox1.Text = "From Station";
-            textBox1.TextChanged += textBox1_TextChanged;
+            txtfrom.ForeColor = SystemColors.ControlDarkDark;
+            txtfrom.Location = new Point(69, 234);
+            txtfrom.Name = "txtfrom";
+            txtfrom.Size = new Size(250, 27);
+            txtfrom.TabIndex = 7;
+            txtfrom.Text = "From Station";
+            txtfrom.TextChanged += textBox1_TextChanged;
+            txtfrom.Enter += textBox1_Enter;
+            txtfrom.Leave += txtfrom_Leave;
             // 
-            // textBox2
+            // txtTo
             // 
-            textBox2.ForeColor = SystemColors.ControlDarkDark;
-            textBox2.Location = new Point(406, 234);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(250, 27);
-            textBox2.TabIndex = 8;
-            textBox2.Text = "To Station";
+            txtTo.ForeColor = SystemColors.ControlDarkDark;
+            txtTo.Location = new Point(406, 234);
+            txtTo.Name = "txtTo";
+            txtTo.Size = new Size(250, 27);
+            txtTo.TabIndex = 8;
+            txtTo.Text = "To Station";
+            txtTo.Enter += textBox2_Enter;
+            txtTo.Leave += textBox2_Leave;
             // 
             // dateTimePicker1
             // 
@@ -172,10 +166,21 @@
             button1.Location = new Point(216, 471);
             button1.Name = "button1";
             button1.Size = new Size(277, 46);
-            button1.TabIndex = 12;
+            button1.TabIndex = 1;
             button1.Text = "Search Tarins";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label7.Location = new Point(69, 650);
+            label7.Name = "label7";
+            label7.Size = new Size(600, 112);
+            label7.TabIndex = 13;
+            label7.Text = resources.GetString("label7.Text");
+            label7.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // Form4
             // 
@@ -183,21 +188,22 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.HighlightText;
             ClientSize = new Size(1737, 972);
+            Controls.Add(label7);
             Controls.Add(button1);
             Controls.Add(pictureBox1);
             Controls.Add(comboBox1);
             Controls.Add(dateTimePicker1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(txtTo);
+            Controls.Add(txtfrom);
             Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(linkLabel1);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form4";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "E-Ticket";
             Load += Form4_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -206,18 +212,18 @@
         }
 
         #endregion
-        private LinkLabel linkLabel1;
         private Label label1;
         private Label label2;
         private Label label3;
         private Label label4;
         private Label label5;
         private Label label6;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox txtfrom;
+        private TextBox txtTo;
         private DateTimePicker dateTimePicker1;
         private ComboBox comboBox1;
         private PictureBox pictureBox1;
         private Button button1;
+        private Label label7;
     }
 }
