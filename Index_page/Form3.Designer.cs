@@ -203,6 +203,7 @@
             txtPass.Size = new Size(225, 27);
             txtPass.TabIndex = 15;
             txtPass.UseSystemPasswordChar = true;
+            txtPass.TextChanged += txtPass_TextChanged;
             // 
             // txtCfrPass
             // 
@@ -211,6 +212,7 @@
             txtCfrPass.Size = new Size(225, 27);
             txtCfrPass.TabIndex = 16;
             txtCfrPass.UseSystemPasswordChar = true;
+            txtCfrPass.TextChanged += txtCfrPass_TextChanged;
             // 
             // label9
             // 

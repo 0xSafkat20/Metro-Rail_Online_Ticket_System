@@ -17,7 +17,7 @@ namespace Index_page
         {
             InitializeComponent();
         }
-        string contdb = @"Data Source=SAFKAT-LAPTOP\MSSQLSERVER01;Initial Catalog=master;Integrated Security=True";
+        string contdb = @"Data Source=SAFKAT-LAPTOP;Initial Catalog=project;Integrated Security=True";
         private void button1_Click(object sender, EventArgs e)
         {
 
@@ -31,22 +31,26 @@ namespace Index_page
             }
             else
             {
-                using (SqlConnection sqlCon = new SqlConnection(contdb))
-                {
+                SqlConnection sqlCon = new SqlConnection(contdb);
+                
                     sqlCon.Open();
-                    SqlCommand sqlCmd = new SqlCommand("UserAdd", sqlCon);
-                    sqlCmd.CommandType = CommandType.StoredProcedure;
-                    sqlCmd.Parameters.AddWithValue("@FirstName", txtfstNm.Text.Trim());
-                    sqlCmd.Parameters.AddWithValue("@LastName", txtlsNm.Text.Trim());
-                    sqlCmd.Parameters.AddWithValue("@Email", txtEmail.Text.Trim());
-                    sqlCmd.Parameters.AddWithValue("@UserName", txtUser.Text.Trim());
-                    sqlCmd.Parameters.AddWithValue("@Password", txtPass.Text.Trim());
-                    sqlCmd.Parameters.AddWithValue("@ConfirmPassword", txtCfrPass.Text.Trim());
-                    sqlCmd.ExecuteNonQuery();
-                    MessageBox.Show("Registration is Successfull");
 
-                    Clear();
-                }
+                    string FirstName = txtfstNm.Text;
+                    string LastName = txtlsNm.Text;
+                    string Email = txtEmail.Text;
+                    string UserName = txtUser.Text;
+                    string Password = txtPass.Text;
+                    string ConfirmPassword = txtCfrPass.Text;
+
+
+                    string Query = " INSERT INTO UserInfo(FirstName,LastName,Email,UserName,Password,ConfirmPassword) VALUES ('"+FirstName+"','"+LastName+ "','"+Email+"','"+UserName+ "','"+Password+ "','"+ConfirmPassword+ "',)";
+
+                    SqlCommand sqlCmd = new SqlCommand("Query", sqlCon);
+                    sqlCmd.ExecuteNonQuery();
+                    sqlCon.Close();
+
+                    MessageBox.Show("Registration is Successfull");
+                
             }
         }
         void Clear()
@@ -86,6 +90,16 @@ namespace Index_page
         }
 
         private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtPass_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtCfrPass_TextChanged(object sender, EventArgs e)
         {
 
         }
