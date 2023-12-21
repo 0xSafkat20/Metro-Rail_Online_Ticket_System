@@ -42,6 +42,7 @@
             pictureBox1 = new PictureBox();
             button1 = new Button();
             label7 = new Label();
+            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -112,7 +113,6 @@
             txtfrom.Size = new Size(250, 27);
             txtfrom.TabIndex = 7;
             txtfrom.Text = "From Station";
-            txtfrom.TextChanged += textBox1_TextChanged;
             txtfrom.Enter += textBox1_Enter;
             txtfrom.Leave += txtfrom_Leave;
             // 
@@ -182,12 +182,23 @@
             label7.Text = resources.GetString("label7.Text");
             label7.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // button2
+            // 
+            button2.Location = new Point(2, -1);
+            button2.Name = "button2";
+            button2.Size = new Size(126, 43);
+            button2.TabIndex = 14;
+            button2.Text = "◁ Back";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
             // Form4
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.HighlightText;
             ClientSize = new Size(1737, 972);
+            Controls.Add(button2);
             Controls.Add(label7);
             Controls.Add(button1);
             Controls.Add(pictureBox1);
@@ -225,5 +236,7 @@
         private PictureBox pictureBox1;
         private Button button1;
         private Label label7;
+        private Button button6;
+        private Button button2;
     }
 }

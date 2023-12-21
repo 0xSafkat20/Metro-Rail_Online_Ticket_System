@@ -22,35 +22,7 @@ namespace Index_page
             MaximizeBox = false;
         }
 
-        private void button8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button14_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button16_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button27_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button33_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+ 
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -98,6 +70,13 @@ namespace Index_page
 
                 txtTo.ForeColor = Color.Gray;
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form2 form = new Form2();
+            form.Show();
+            this.Hide();
         }
     }
 }

@@ -13,11 +13,11 @@ namespace Index_page
 {
     public partial class Form3 : Form
     {
+        string contdb = @"Data Source=SAFKAT-LAPTOP;Initial Catalog=project;Integrated Security=True";
         public Form3()
         {
             InitializeComponent();
         }
-        string contdb = @"Data Source=SAFKAT-LAPTOP;Initial Catalog=project;Integrated Security=True";
         private void button1_Click(object sender, EventArgs e)
         {
 
@@ -31,26 +31,22 @@ namespace Index_page
             }
             else
             {
-                SqlConnection sqlCon = new SqlConnection(contdb);
-                
+                using (SqlConnection sqlCon = new SqlConnection(contdb))
+                {
+
                     sqlCon.Open();
-
-                    string FirstName = txtfstNm.Text;
-                    string LastName = txtlsNm.Text;
-                    string Email = txtEmail.Text;
-                    string UserName = txtUser.Text;
-                    string Password = txtPass.Text;
-                    string ConfirmPassword = txtCfrPass.Text;
-
-
-                    string Query = " INSERT INTO UserInfo(FirstName,LastName,Email,UserName,Password,ConfirmPassword) VALUES ('"+FirstName+"','"+LastName+ "','"+Email+"','"+UserName+ "','"+Password+ "','"+ConfirmPassword+ "',)";
-
-                    SqlCommand sqlCmd = new SqlCommand("Query", sqlCon);
+                    SqlCommand sqlCmd = new SqlCommand("UserAdd", sqlCon);
+                    sqlCmd.CommandType = CommandType.StoredProcedure;
+                    sqlCmd.Parameters.AddWithValue("@FirstName", txtfstNm.Text.Trim()); 
+                    sqlCmd.Parameters.AddWithValue("@LastName", txtlsNm.Text.Trim()); 
+                    sqlCmd.Parameters.AddWithValue("@Email", txtEmail.Text.Trim());
+                    sqlCmd.Parameters.AddWithValue("@UserName", txtUser.Text.Trim());
+                    sqlCmd.Parameters.AddWithValue("@Password", txtPass.Text.Trim());
+                    sqlCmd.Parameters.AddWithValue("@ConfirmPassword", txtCfrPass.Text.Trim());
                     sqlCmd.ExecuteNonQuery();
-                    sqlCon.Close();
-
+                    Clear();
                     MessageBox.Show("Registration is Successfull");
-                
+                }
             }
         }
         void Clear()
