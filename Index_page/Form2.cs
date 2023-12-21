@@ -18,7 +18,7 @@ namespace Index_page
         {
             InitializeComponent();
         }
-       SqlConnection conn =new SqlConnection(@"Data Source=SAFKAT-LAPTOP;Initial Catalog=project;Integrated Security=True");
+        SqlConnection conn = new SqlConnection(@"Data Source=SAFKAT-LAPTOP;Initial Catalog=project;Integrated Security=True");
 
         private void textBox1_Enter(object sender, EventArgs e)
         {
@@ -109,47 +109,50 @@ namespace Index_page
 
         private void button1_Click(object sender, EventArgs e)
         {
-           // int User_ID = 0;
-            String email, password;
-            email = txtemail.Text;
-            password = txtpass.Text;
+            
+            
+                // int User_ID = 0;
+                String email, password;
+                email = txtemail.Text;
+                password = txtpass.Text;
 
-            try
-            {
-                string querry = "SELECT * FROM UserInfo WHERE email = '"+ txtemail.Text+"' AND password = '"+txtpass.Text+"'";
-                SqlDataAdapter sda = new SqlDataAdapter(querry,conn);
-
-                DataTable dataTable = new DataTable();
-                sda.Fill(dataTable);
-
-                if (dataTable.Rows.Count > 0)
+                try
                 {
-                    email = txtemail.Text;
-                    password = txtpass.Text;
+                    string querry = "SELECT * FROM UserInfo WHERE email = '" + txtemail.Text + "' AND password = '" + txtpass.Text + "'";
+                    SqlDataAdapter sda = new SqlDataAdapter(querry, conn);
 
-                    Form4 form = new Form4();
-                    form.Show();
-                     this.Hide();
+                    DataTable dataTable = new DataTable();
+                    sda.Fill(dataTable);
+
+                    if (dataTable.Rows.Count > 0)
+                    {
+                        email = txtemail.Text;
+                        password = txtpass.Text;
+
+                        Form4 form = new Form4();
+                        form.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Invalid Email And Password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        txtemail.Clear();
+                        txtpass.Clear();
+
+                        txtemail.Focus();
+                    }
                 }
-                else
+
+                catch
                 {
-                    MessageBox.Show("Invalid Email And Password","Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
-                    txtemail.Clear();
-                    txtpass.Clear();
-
-                    txtemail.Focus();
+                    MessageBox.Show("Error");
+                }
+                finally
+                {
+                    conn.Close();
                 }
             }
-        
-            catch
-            {
-                MessageBox.Show("Error");
-            }
-            finally
-            {
-                conn.Close();
-            }
-        }
     }
 }
+
 

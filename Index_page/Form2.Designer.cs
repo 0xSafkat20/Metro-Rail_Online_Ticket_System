@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             pictureBox1 = new PictureBox();
             label1 = new Label();
@@ -42,7 +43,11 @@
             button5 = new Button();
             txtpass = new TextBox();
             button6 = new Button();
+            errorProvider1 = new ErrorProvider(components);
+            errorProvider2 = new ErrorProvider(components);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)errorProvider1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)errorProvider2).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
@@ -194,6 +199,14 @@
             button6.UseVisualStyleBackColor = false;
             button6.Click += button6_Click;
             // 
+            // errorProvider1
+            // 
+            errorProvider1.ContainerControl = this;
+            // 
+            // errorProvider2
+            // 
+            errorProvider2.ContainerControl = this;
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -219,6 +232,8 @@
             Text = "Sign In";
             Load += Form2_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)errorProvider1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)errorProvider2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -238,5 +253,7 @@
         private Button button5;
         private TextBox txtpass;
         private Button button6;
+        private ErrorProvider errorProvider1;
+        private ErrorProvider errorProvider2;
     }
 }

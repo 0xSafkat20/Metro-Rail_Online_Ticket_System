@@ -37,8 +37,8 @@ namespace Index_page
                     sqlCon.Open();
                     SqlCommand sqlCmd = new SqlCommand("UserAdd", sqlCon);
                     sqlCmd.CommandType = CommandType.StoredProcedure;
-                    sqlCmd.Parameters.AddWithValue("@FirstName", txtfstNm.Text.Trim()); 
-                    sqlCmd.Parameters.AddWithValue("@LastName", txtlsNm.Text.Trim()); 
+                    sqlCmd.Parameters.AddWithValue("@FirstName", txtfstNm.Text.Trim());
+                    sqlCmd.Parameters.AddWithValue("@LastName", txtlsNm.Text.Trim());
                     sqlCmd.Parameters.AddWithValue("@Email", txtEmail.Text.Trim());
                     sqlCmd.Parameters.AddWithValue("@UserName", txtUser.Text.Trim());
                     sqlCmd.Parameters.AddWithValue("@Password", txtPass.Text.Trim());

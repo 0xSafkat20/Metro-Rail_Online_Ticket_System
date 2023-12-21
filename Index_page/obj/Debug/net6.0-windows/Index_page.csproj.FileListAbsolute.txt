@@ -29,3 +29,5 @@ C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-window
 C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\Index_page.pdb
 C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\Index_page.genruntimeconfig.cache
 C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\ref\Index_page.dll
+C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\Index_page.InsertTicket.resources
+C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\Index_page.Form5.resources

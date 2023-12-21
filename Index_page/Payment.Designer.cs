@@ -38,6 +38,7 @@
             label3 = new Label();
             label4 = new Label();
             label5 = new Label();
+            button5 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -130,12 +131,23 @@
             label5.TabIndex = 5;
             label5.Text = "বাকী";
             // 
+            // button5
+            // 
+            button5.Location = new Point(-3, 0);
+            button5.Name = "button5";
+            button5.Size = new Size(102, 42);
+            button5.TabIndex = 6;
+            button5.Text = "◁ Back";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
+            // 
             // Payment
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.HighlightText;
             ClientSize = new Size(860, 555);
+            Controls.Add(button5);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label3);
@@ -165,5 +177,6 @@
         private Label label3;
         private Label label4;
         private Label label5;
+        private Button button5;
     }
 }

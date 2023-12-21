@@ -28,7 +28,9 @@ namespace Index_page
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            Admin Ad = new Admin();
+            Ad.Show();
+            this.Hide();
         }
 
         private void Form1_Load(object sender, EventArgs e)
