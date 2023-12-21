@@ -46,8 +46,8 @@
             dataGridView2 = new DataGridView();
             label2 = new Label();
             label3 = new Label();
-            button3 = new Button();
             button4 = new Button();
+            button3 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -113,7 +113,7 @@
             button5.Name = "button5";
             button5.Size = new Size(156, 52);
             button5.TabIndex = 8;
-            button5.Text = "Search";
+            button5.Text = "Show Info";
             button5.UseVisualStyleBackColor = true;
             button5.Click += button5_Click;
             // 
@@ -142,6 +142,7 @@
             button7.TabIndex = 10;
             button7.Text = "Edit Profile";
             button7.UseVisualStyleBackColor = false;
+            button7.Click += button7_Click;
             // 
             // button8
             // 
@@ -218,33 +219,34 @@
             label3.TabIndex = 17;
             label3.Text = "User Infomation";
             // 
-            // button3
-            // 
-            button3.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            button3.Location = new Point(31, 354);
-            button3.Name = "button3";
-            button3.Size = new Size(217, 75);
-            button3.TabIndex = 5;
-            button3.Text = "CRUD Operation For User ";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button2_Click;
-            // 
             // button4
             // 
             button4.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            button4.Location = new Point(524, 691);
+            button4.Location = new Point(545, 691);
             button4.Name = "button4";
             button4.Size = new Size(156, 52);
-            button4.TabIndex = 8;
-            button4.Text = "Search";
+            button4.TabIndex = 18;
+            button4.Text = "Show Info";
             button4.UseVisualStyleBackColor = true;
-            button4.Click += button5_Click;
+            button4.Click += button4_Click_1;
+            // 
+            // button3
+            // 
+            button3.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button3.Location = new Point(31, 341);
+            button3.Name = "button3";
+            button3.Size = new Size(217, 75);
+            button3.TabIndex = 19;
+            button3.Text = "CRUD Operation For User";
+            button3.UseVisualStyleBackColor = true;
             // 
             // Admin
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1438, 835);
+            Controls.Add(button3);
+            Controls.Add(button4);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(dataGridView2);
@@ -253,9 +255,7 @@
             Controls.Add(button8);
             Controls.Add(button7);
             Controls.Add(button6);
-            Controls.Add(button4);
             Controls.Add(button5);
-            Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(label1);
             Controls.Add(pictureBox3);
@@ -266,6 +266,7 @@
             Name = "Admin";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Admin";
+            Load += Admin_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
@@ -294,7 +295,7 @@
         private DataGridView dataGridView2;
         private Label label2;
         private Label label3;
-        private Button button3;
         private Button button4;
+        private Button button3;
     }
 }

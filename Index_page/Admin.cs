@@ -82,5 +82,28 @@ namespace Index_page
             adapter.Fill(dt);
             dataGridView1.DataSource = dt;
         }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=SAFKAT-LAPTOP;Initial Catalog=project;Integrated Security=True");
+            con.Open();
+            SqlCommand cmd = new SqlCommand("SELECT * FROM UserInfo", con);
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            adapter.Fill(dt);
+            dataGridView2.DataSource = dt;
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Form5 form = new Form5();
+            form.Show();
+            this.Hide();
+        }
+
+        private void Admin_Load(object sender, EventArgs e)
+        {
+            label1.Text = "admin";
+        }
     }
 }

@@ -188,6 +188,7 @@
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new Size(225, 27);
             txtEmail.TabIndex = 13;
+            txtEmail.TextChanged += txtEmail_TextChanged;
             // 
             // txtUser
             // 

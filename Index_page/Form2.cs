@@ -18,7 +18,7 @@ namespace Index_page
         {
             InitializeComponent();
         }
-        SqlConnection conn = new SqlConnection(@"Data Source=SAFKAT-LAPTOP;Initial Catalog=project;Integrated Security=True");
+        SqlConnection con = new SqlConnection(Global_Var.connstr);
 
         private void textBox1_Enter(object sender, EventArgs e)
         {
@@ -109,17 +109,23 @@ namespace Index_page
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
-            
-                // int User_ID = 0;
+               // int User_ID = 0;
                 String email, password;
                 email = txtemail.Text;
                 password = txtpass.Text;
 
+            if (txtemail.Text == "admin"  || txtpass.Text == "admin")
+            {
+                Admin admin = new Admin();
+                admin.Show();
+                this.Hide();
+            }
+            else
+            {
                 try
                 {
                     string querry = "SELECT * FROM UserInfo WHERE email = '" + txtemail.Text + "' AND password = '" + txtpass.Text + "'";
-                    SqlDataAdapter sda = new SqlDataAdapter(querry, conn);
+                    SqlDataAdapter sda = new SqlDataAdapter(querry, con);
 
                     DataTable dataTable = new DataTable();
                     sda.Fill(dataTable);
@@ -149,8 +155,9 @@ namespace Index_page
                 }
                 finally
                 {
-                    conn.Close();
+                    con.Close();
                 }
+            }
             }
     }
 }
