@@ -7,11 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Data.SqlClient;
 namespace Index_page
 {
     public partial class Form4 : Form
     {
+        SqlConnection con = new SqlConnection(Global_Var.connstr);
         public Form4()
         {
             InitializeComponent();
@@ -26,10 +27,17 @@ namespace Index_page
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Seat seat = new Seat();
-            seat.Show();
-            this.Hide();
-
+            
+                SqlCommand cmd = new SqlCommand("INSERT INTO Location VALUES (@u_from, @u_to, @seat_type, @date)", con);
+                con.Open();
+                cmd.Parameters.AddWithValue("@u_from", txtfrom.Text);
+                cmd.Parameters.AddWithValue("@u_to", txtTo.Text);
+                cmd.Parameters.AddWithValue("@seat_type", comboBox1.Text);
+                cmd.Parameters.AddWithValue("@date", dateTimePicker1.Value.ToString());
+                cmd.ExecuteNonQuery();
+                Seat seat = new Seat();
+                seat.Show();
+                this.Hide();
         }
 
         private void textBox1_Enter(object sender, EventArgs e)
