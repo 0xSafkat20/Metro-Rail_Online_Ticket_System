@@ -12,7 +12,7 @@ namespace Index_page
 {
     public partial class Form4 : Form
     {
-        SqlConnection con = new SqlConnection(Global_Var.connstr);
+        SqlConnection con = new SqlConnection(TicketIfo.connstr);
         public Form4()
         {
             InitializeComponent();
@@ -34,7 +34,6 @@ namespace Index_page
                 cmd.Parameters.AddWithValue("@u_to", txtTo.Text);
                 cmd.Parameters.AddWithValue("@seat_type", comboBox1.Text);
                 cmd.Parameters.AddWithValue("@date", dateTimePicker1.Value.ToString());
-                cmd.ExecuteNonQuery();
                 Seat seat = new Seat();
                 seat.Show();
                 this.Hide();

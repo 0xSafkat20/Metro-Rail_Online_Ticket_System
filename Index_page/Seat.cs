@@ -12,6 +12,7 @@ namespace Index_page
 {
     public partial class Seat : Form
     {
+        string text;
         public Seat()
         {
             InitializeComponent();
@@ -77,5 +78,54 @@ namespace Index_page
             payment.Show();
             this.Hide();
         }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked == true)
+            {
+                text = " SkyRail Metro (Arrive 8 AM  Reach  3 PM)";
+            }
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked == true)
+            {
+                text = " SkyRail Metro (Arrive 12 PM Reach 5 PM)";
+            }
+        }
+
+        private void radioButton6_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked == true)
+            {
+                text = " Urban Express Rail (Arrive 10 AM Reach 5 PM)";
+            }
+        }
+
+        private void radioButton5_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked == true)
+            {
+                text = "Urban Express Rail (Arrive 2 PM Reach 9 PM)";
+            }
+        }
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked == true)
+            {
+                text = "CityRail Express (Arrive 10 PM Reach 7 AM)";
+            }
+        }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked == true)
+            {
+                text = "CityRail Express (Arrive 12 PM Reach 9 AM)";
+            }
+        }
+
     }
 }
