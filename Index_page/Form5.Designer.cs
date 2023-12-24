@@ -56,9 +56,10 @@
             label2.AutoSize = true;
             label2.Location = new Point(325, 72);
             label2.Name = "label2";
-            label2.Size = new Size(50, 20);
+            label2.Size = new Size(53, 20);
             label2.TabIndex = 1;
-            label2.Text = "label2";
+            label2.Text = "Admin";
+            label2.Click += label2_Click;
             // 
             // label3
             // 

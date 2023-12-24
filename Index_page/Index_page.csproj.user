@@ -28,5 +28,8 @@
     <Compile Update="Seat.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Ticket.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

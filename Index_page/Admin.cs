@@ -103,7 +103,12 @@ namespace Index_page
 
         private void Admin_Load(object sender, EventArgs e)
         {
-            label1.Text = "admin";
+            label1.Text = "Admin";
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

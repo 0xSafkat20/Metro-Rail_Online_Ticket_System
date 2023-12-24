@@ -114,7 +114,7 @@ namespace Index_page
                 email = txtemail.Text;
                 password = txtpass.Text;
 
-            if (txtemail.Text == "admin"  || txtpass.Text == "admin")
+            if (txtemail.Text == "Admin"  && txtpass.Text == "admin" || txtpass.Text == "iamadmin")
             {
                 Admin admin = new Admin();
                 admin.Show();

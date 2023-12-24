@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Index_page
 {
@@ -74,6 +76,17 @@ namespace Index_page
 
         private void button27_Click(object sender, EventArgs e)
         {
+            SqlConnection sqlcon = new SqlConnection(TicketIfo.connstr);  
+          /*  SqlCommand cmd = new SqlCommand("INSERT INTO Location VALUES (@u_from, @u_to, @seat_type, @date)"sqlcon);
+            con.Open();
+            cmd.Parameters.AddWithValue("@u_from", u_from);
+            cmd.Parameters.AddWithValue("@u_to", txtTo.Text);
+            cmd.Parameters.AddWithValue("@seat_type", comboBox1.Text);
+            cmd.Parameters.AddWithValue("@date", dateTimePicker1.Value.ToString());
+
+            */
+
+
             Payment payment = new Payment();
             payment.Show();
             this.Hide();

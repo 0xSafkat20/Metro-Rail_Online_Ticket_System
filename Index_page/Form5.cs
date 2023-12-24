@@ -22,7 +22,7 @@ namespace Index_page
 
         private void Form5_Load(object sender, EventArgs e)
         {
-            label2.Text = Global_Var.username;
+          //  label2.Text = Global_Var.username;
 
         }
 
@@ -59,6 +59,11 @@ namespace Index_page
             {
 
             }
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -29,7 +29,9 @@ namespace Index_page
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Your Payment is Complete");
+            Ticket ticket = new Ticket();   
+            ticket.Show();
+            this.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)

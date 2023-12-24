@@ -105,6 +105,7 @@
             label1.Size = new Size(83, 20);
             label1.TabIndex = 4;
             label1.Text = "UsertName";
+            label1.Click += label1_Click;
             // 
             // button5
             // 
