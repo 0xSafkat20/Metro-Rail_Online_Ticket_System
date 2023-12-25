@@ -34,6 +34,7 @@ namespace Index_page
                 cmd.Parameters.AddWithValue("@u_to", txtTo.Text);
                 cmd.Parameters.AddWithValue("@seat_type", comboBox1.Text);
                 cmd.Parameters.AddWithValue("@date", dateTimePicker1.Value.ToString());
+            cmd.ExecuteNonQuery();
                 Seat seat = new Seat();
                 seat.Show();
                 this.Hide();
