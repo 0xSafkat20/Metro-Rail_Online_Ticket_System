@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CCB\\OneDrive\\Desktop\\C-Sharp_Project\\Index_page\\Index_page.csproj": {}
+    "D:\\C#\\C-Sharp_Project\\Index_page\\Index_page.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CCB\\OneDrive\\Desktop\\C-Sharp_Project\\Index_page\\Index_page.csproj": {
+    "D:\\C#\\C-Sharp_Project\\Index_page\\Index_page.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CCB\\OneDrive\\Desktop\\C-Sharp_Project\\Index_page\\Index_page.csproj",
+        "projectUniqueName": "D:\\C#\\C-Sharp_Project\\Index_page\\Index_page.csproj",
         "projectName": "Index_page",
-        "projectPath": "C:\\Users\\CCB\\OneDrive\\Desktop\\C-Sharp_Project\\Index_page\\Index_page.csproj",
+        "projectPath": "D:\\C#\\C-Sharp_Project\\Index_page\\Index_page.csproj",
         "packagesPath": "C:\\Users\\CCB\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CCB\\OneDrive\\Desktop\\C-Sharp_Project\\Index_page\\obj\\",
+        "outputPath": "D:\\C#\\C-Sharp_Project\\Index_page\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

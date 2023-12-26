@@ -38,7 +38,6 @@
             button5 = new Button();
             button6 = new Button();
             button7 = new Button();
-            button8 = new Button();
             dataGridView1 = new DataGridView();
             button9 = new Button();
             bindingSource1 = new BindingSource(components);
@@ -145,17 +144,6 @@
             button7.UseVisualStyleBackColor = false;
             button7.Click += button7_Click;
             // 
-            // button8
-            // 
-            button8.FlatAppearance.BorderSize = 0;
-            button8.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button8.Location = new Point(1125, 36);
-            button8.Name = "button8";
-            button8.Size = new Size(124, 42);
-            button8.TabIndex = 11;
-            button8.Text = "Setting";
-            button8.UseVisualStyleBackColor = true;
-            // 
             // dataGridView1
             // 
             dataGridView1.BackgroundColor = SystemColors.HighlightText;
@@ -253,7 +241,6 @@
             Controls.Add(dataGridView2);
             Controls.Add(button9);
             Controls.Add(dataGridView1);
-            Controls.Add(button8);
             Controls.Add(button7);
             Controls.Add(button6);
             Controls.Add(button5);
@@ -288,7 +275,6 @@
         private Button button5;
         private Button button6;
         private Button button7;
-        private Button button8;
         private DataGridView dataGridView1;
         private Button button9;
         private BindingSource bindingSource1;

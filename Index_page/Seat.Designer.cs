@@ -518,12 +518,12 @@
             // 
             // button25
             // 
-            button25.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
+            button25.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
             button25.Location = new Point(1, 0);
             button25.Name = "button25";
             button25.Size = new Size(120, 41);
             button25.TabIndex = 39;
-            button25.Text = "〈〈";
+            button25.Text = "◁ Back";
             button25.UseVisualStyleBackColor = true;
             button25.Click += button25_Click;
             // 
