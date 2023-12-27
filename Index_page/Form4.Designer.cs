@@ -35,14 +35,14 @@
             label4 = new Label();
             label5 = new Label();
             label6 = new Label();
-            txtfrom = new TextBox();
-            txtTo = new TextBox();
             dateTimePicker1 = new DateTimePicker();
             comboBox1 = new ComboBox();
             pictureBox1 = new PictureBox();
             button1 = new Button();
             label7 = new Label();
             button2 = new Button();
+            comboBox2 = new ComboBox();
+            comboBox3 = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -104,28 +104,6 @@
             label6.Size = new Size(157, 28);
             label6.TabIndex = 6;
             label6.Text = "Date of Journey";
-            // 
-            // txtfrom
-            // 
-            txtfrom.ForeColor = SystemColors.ControlDarkDark;
-            txtfrom.Location = new Point(69, 234);
-            txtfrom.Name = "txtfrom";
-            txtfrom.Size = new Size(250, 27);
-            txtfrom.TabIndex = 7;
-            txtfrom.Text = "From Station";
-            txtfrom.Enter += textBox1_Enter;
-            txtfrom.Leave += txtfrom_Leave;
-            // 
-            // txtTo
-            // 
-            txtTo.ForeColor = SystemColors.ControlDarkDark;
-            txtTo.Location = new Point(406, 234);
-            txtTo.Name = "txtTo";
-            txtTo.Size = new Size(250, 27);
-            txtTo.TabIndex = 8;
-            txtTo.Text = "To Station";
-            txtTo.Enter += textBox2_Enter;
-            txtTo.Leave += textBox2_Leave;
             // 
             // dateTimePicker1
             // 
@@ -192,20 +170,38 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
+            // comboBox2
+            // 
+            comboBox2.FormattingEnabled = true;
+            comboBox2.Location = new Point(69, 234);
+            comboBox2.Name = "comboBox2";
+            comboBox2.Size = new Size(250, 28);
+            comboBox2.TabIndex = 15;
+            comboBox2.Text = "From Station";
+            // 
+            // comboBox3
+            // 
+            comboBox3.FormattingEnabled = true;
+            comboBox3.Location = new Point(406, 234);
+            comboBox3.Name = "comboBox3";
+            comboBox3.Size = new Size(250, 28);
+            comboBox3.TabIndex = 15;
+            comboBox3.Text = "To Station";
+            // 
             // Form4
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.HighlightText;
             ClientSize = new Size(1737, 972);
+            Controls.Add(comboBox3);
+            Controls.Add(comboBox2);
             Controls.Add(button2);
             Controls.Add(label7);
             Controls.Add(button1);
             Controls.Add(pictureBox1);
             Controls.Add(comboBox1);
             Controls.Add(dateTimePicker1);
-            Controls.Add(txtTo);
-            Controls.Add(txtfrom);
             Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(label4);
@@ -229,8 +225,6 @@
         private Label label4;
         private Label label5;
         private Label label6;
-        private TextBox txtfrom;
-        private TextBox txtTo;
         private DateTimePicker dateTimePicker1;
         private ComboBox comboBox1;
         private PictureBox pictureBox1;
@@ -238,5 +232,7 @@
         private Label label7;
         private Button button6;
         private Button button2;
+        private ComboBox comboBox2;
+        private ComboBox comboBox3;
     }
 }
