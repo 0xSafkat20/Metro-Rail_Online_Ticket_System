@@ -46,10 +46,8 @@
             label14 = new Label();
             label15 = new Label();
             label16 = new Label();
-            label17 = new Label();
             button1 = new Button();
             label18 = new Label();
-            label19 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
@@ -208,21 +206,11 @@
             // label16
             // 
             label16.AutoSize = true;
-            label16.Location = new Point(418, 267);
+            label16.Location = new Point(521, 267);
             label16.Name = "label16";
             label16.Size = new Size(128, 20);
             label16.TabIndex = 2;
             label16.Text = "Payment Method :";
-            // 
-            // label17
-            // 
-            label17.AutoSize = true;
-            label17.Location = new Point(582, 267);
-            label17.Name = "label17";
-            label17.Size = new Size(56, 20);
-            label17.TabIndex = 2;
-            label17.Text = "Nogod";
-            label17.Click += label17_Click;
             // 
             // button1
             // 
@@ -245,23 +233,12 @@
             label18.Text = "Arrive Time";
             label18.Click += label18_Click;
             // 
-            // label19
-            // 
-            label19.AutoSize = true;
-            label19.Location = new Point(765, 223);
-            label19.Name = "label19";
-            label19.Size = new Size(46, 20);
-            label19.TabIndex = 7;
-            label19.Text = "10PM";
-            label19.Click += label19_Click;
-            // 
             // Ticket
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.BurlyWood;
             ClientSize = new Size(1110, 499);
-            Controls.Add(label19);
             Controls.Add(button1);
             Controls.Add(label5);
             Controls.Add(label4);
@@ -269,7 +246,6 @@
             Controls.Add(label9);
             Controls.Add(label7);
             Controls.Add(label13);
-            Controls.Add(label17);
             Controls.Add(label15);
             Controls.Add(label11);
             Controls.Add(label6);
@@ -310,9 +286,7 @@
         private Label label14;
         private Label label15;
         private Label label16;
-        private Label label17;
         private Button button1;
         private Label label18;
-        private Label label19;
     }
 }
