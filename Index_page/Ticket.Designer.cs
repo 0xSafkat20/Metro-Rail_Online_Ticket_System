@@ -42,12 +42,14 @@
             label11 = new Label();
             label12 = new Label();
             label13 = new Label();
-            pictureBox2 = new PictureBox();
             label14 = new Label();
             label15 = new Label();
             label16 = new Label();
             button1 = new Button();
             label18 = new Label();
+            pictureBox2 = new PictureBox();
+            label17 = new Label();
+            label19 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
@@ -175,15 +177,6 @@
             label13.Text = "CityRail Express";
             label13.Click += label13_Click;
             // 
-            // pictureBox2
-            // 
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(147, 54);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(731, 263);
-            pictureBox2.TabIndex = 0;
-            pictureBox2.TabStop = false;
-            // 
             // label14
             // 
             label14.AutoSize = true;
@@ -206,7 +199,7 @@
             // label16
             // 
             label16.AutoSize = true;
-            label16.Location = new Point(521, 267);
+            label16.Location = new Point(418, 267);
             label16.Name = "label16";
             label16.Size = new Size(128, 20);
             label16.TabIndex = 2;
@@ -233,6 +226,35 @@
             label18.Text = "Arrive Time";
             label18.Click += label18_Click;
             // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(147, 54);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(731, 263);
+            pictureBox2.TabIndex = 0;
+            pictureBox2.TabStop = false;
+            // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.Location = new Point(582, 267);
+            label17.Name = "label17";
+            label17.Size = new Size(38, 20);
+            label17.TabIndex = 2;
+            label17.Text = "Taka";
+            label17.Click += label15_Click;
+            // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.Location = new Point(778, 224);
+            label19.Name = "label19";
+            label19.Size = new Size(25, 20);
+            label19.TabIndex = 2;
+            label19.Text = "10";
+            label19.Click += label15_Click;
+            // 
             // Ticket
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -246,6 +268,8 @@
             Controls.Add(label9);
             Controls.Add(label7);
             Controls.Add(label13);
+            Controls.Add(label19);
+            Controls.Add(label17);
             Controls.Add(label15);
             Controls.Add(label11);
             Controls.Add(label6);
@@ -282,11 +306,13 @@
         private Label label11;
         private Label label12;
         private Label label13;
-        private PictureBox pictureBox2;
         private Label label14;
         private Label label15;
         private Label label16;
         private Button button1;
         private Label label18;
+        private PictureBox pictureBox2;
+        private Label label17;
+        private Label label19;
     }
 }
