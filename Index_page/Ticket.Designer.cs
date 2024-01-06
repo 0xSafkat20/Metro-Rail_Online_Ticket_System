@@ -31,15 +31,12 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ticket));
             label1 = new Label();
             label2 = new Label();
-            label3 = new Label();
             label4 = new Label();
             label5 = new Label();
             label6 = new Label();
             label7 = new Label();
             label8 = new Label();
-            label9 = new Label();
             label10 = new Label();
-            label11 = new Label();
             label12 = new Label();
             label13 = new Label();
             label14 = new Label();
@@ -71,16 +68,6 @@
             label2.Size = new Size(56, 20);
             label2.TabIndex = 2;
             label2.Text = "Name :";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(311, 179);
-            label3.Name = "label3";
-            label3.Size = new Size(53, 20);
-            label3.TabIndex = 3;
-            label3.Text = "Mirpur";
-            label3.Click += label3_Click;
             // 
             // label4
             // 
@@ -129,16 +116,6 @@
             label8.TabIndex = 2;
             label8.Text = "From :";
             // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.Location = new Point(311, 224);
-            label9.Name = "label9";
-            label9.Size = new Size(39, 20);
-            label9.TabIndex = 2;
-            label9.Text = "Kuril";
-            label9.Click += label9_Click;
-            // 
             // label10
             // 
             label10.AutoSize = true;
@@ -147,16 +124,6 @@
             label10.Size = new Size(48, 20);
             label10.TabIndex = 2;
             label10.Text = "Date :";
-            // 
-            // label11
-            // 
-            label11.AutoSize = true;
-            label11.Location = new Point(582, 179);
-            label11.Name = "label11";
-            label11.Size = new Size(85, 20);
-            label11.TabIndex = 2;
-            label11.Text = "24/12/2023";
-            label11.Click += label11_Click;
             // 
             // label12
             // 
@@ -264,14 +231,11 @@
             Controls.Add(button1);
             Controls.Add(label5);
             Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(label9);
             Controls.Add(label7);
             Controls.Add(label13);
             Controls.Add(label19);
             Controls.Add(label17);
             Controls.Add(label15);
-            Controls.Add(label11);
             Controls.Add(label6);
             Controls.Add(label18);
             Controls.Add(label12);
@@ -295,15 +259,12 @@
         #endregion
         private Label label1;
         private Label label2;
-        private Label label3;
         private Label label4;
         private Label label5;
         private Label label6;
         private Label label7;
         private Label label8;
-        private Label label9;
         private Label label10;
-        private Label label11;
         private Label label12;
         private Label label13;
         private Label label14;
