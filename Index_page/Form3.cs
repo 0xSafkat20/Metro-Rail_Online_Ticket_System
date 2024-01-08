@@ -72,7 +72,7 @@ namespace Index_page
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
-            Form1 form = new Form1();
+            Home form = new Home();
             form.Show();
         }
 

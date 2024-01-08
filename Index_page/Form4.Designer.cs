@@ -43,6 +43,8 @@
             button2 = new Button();
             comboBox2 = new ComboBox();
             comboBox3 = new ComboBox();
+            txtfrom = new TextBox();
+            txtTo = new TextBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -173,7 +175,7 @@
             // comboBox2
             // 
             comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(69, 234);
+            comboBox2.Location = new Point(69, 575);
             comboBox2.Name = "comboBox2";
             comboBox2.Size = new Size(250, 28);
             comboBox2.TabIndex = 15;
@@ -182,11 +184,27 @@
             // comboBox3
             // 
             comboBox3.FormattingEnabled = true;
-            comboBox3.Location = new Point(406, 234);
+            comboBox3.Location = new Point(406, 562);
             comboBox3.Name = "comboBox3";
             comboBox3.Size = new Size(250, 28);
             comboBox3.TabIndex = 15;
             comboBox3.Text = "To Station";
+            // 
+            // txtfrom
+            // 
+            txtfrom.Location = new Point(69, 232);
+            txtfrom.Name = "txtfrom";
+            txtfrom.Size = new Size(250, 27);
+            txtfrom.TabIndex = 16;
+            txtfrom.Text = "From Station";
+            // 
+            // txtTo
+            // 
+            txtTo.Location = new Point(362, 232);
+            txtTo.Name = "txtTo";
+            txtTo.Size = new Size(250, 27);
+            txtTo.TabIndex = 16;
+            txtTo.Text = "To Station";
             // 
             // Form4
             // 
@@ -194,6 +212,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.HighlightText;
             ClientSize = new Size(1737, 972);
+            Controls.Add(txtTo);
+            Controls.Add(txtfrom);
             Controls.Add(comboBox3);
             Controls.Add(comboBox2);
             Controls.Add(button2);
@@ -234,5 +254,7 @@
         private Button button2;
         private ComboBox comboBox2;
         private ComboBox comboBox3;
+        private TextBox txtfrom;
+        private TextBox txtTo;
     }
 }

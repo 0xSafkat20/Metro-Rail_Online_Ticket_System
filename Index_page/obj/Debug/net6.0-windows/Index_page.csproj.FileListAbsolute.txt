@@ -11,7 +11,6 @@ C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\bin\Debug\net6.0-window
 C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\Index_page.csproj.AssemblyReference.cache
 C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\Index_page.Admin.resources
-C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\Index_page.Form1.resources
 C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\Index_page.Form2.resources
 C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\Index_page.Form3.resources
 C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\Index_page.Form4.resources
@@ -33,3 +32,4 @@ C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-window
 C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\Index_page.Form5.resources
 C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\Index_page.sourcelink.json
 C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\Index_page.Ticket.resources
+C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\Index_page.Home.resources
