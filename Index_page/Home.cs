@@ -60,7 +60,7 @@ namespace Index_page
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Form4 form4 = new Form4();
+            Destination form4 = new Destination();
             form4.Show();
             this.Hide();
         }

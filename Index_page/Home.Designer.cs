@@ -239,12 +239,13 @@
             comboBox1.Size = new Size(151, 28);
             comboBox1.TabIndex = 13;
             // 
-            // Form1
+            // Home
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(1924, 989);
+            ControlBox = false;
             Controls.Add(comboBox1);
             Controls.Add(progressBar1);
             Controls.Add(label5);
@@ -263,9 +264,8 @@
             Controls.Add(label1);
             Controls.Add(pictureBox1);
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Name = "Form1";
-            StartPosition = FormStartPosition.Manual;
-            Text = "Home";
+            Name = "Home";
+            Text = "    Home";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();

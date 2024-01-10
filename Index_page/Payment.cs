@@ -46,7 +46,7 @@ namespace Index_page
 
         private void button5_Click(object sender, EventArgs e)
         {
-            Form4 form = new Form4();
+            Destination form = new Destination();
             form.Show();
             this.Hide();
 

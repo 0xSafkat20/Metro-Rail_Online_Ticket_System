@@ -135,7 +135,7 @@ namespace Index_page
                         email = txtemail.Text;
                         password = txtpass.Text;
 
-                        Form4 form = new Form4();
+                        Destination form = new Destination();
                         form.Show();
                         this.Hide();
                     }
@@ -162,7 +162,12 @@ namespace Index_page
 
         private void button2_Click(object sender, EventArgs e)
         {
-                MessageBox.Show("This Feature Will be added soon");
+            MessageBox.Show("This Feature Will be added soon");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This Feature Will be added soon");
         }
     }
 }

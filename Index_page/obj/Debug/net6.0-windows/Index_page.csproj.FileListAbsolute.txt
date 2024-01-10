@@ -13,7 +13,6 @@ C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-window
 C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\Index_page.Admin.resources
 C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\Index_page.Form2.resources
 C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\Index_page.Form3.resources
-C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\Index_page.Form4.resources
 C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\Index_page.Payment.resources
 C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\Index_page.Properties.Resources.resources
 C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\Index_page.Seat.resources
@@ -33,3 +32,4 @@ C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-window
 C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\Index_page.sourcelink.json
 C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\Index_page.Ticket.resources
 C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\Index_page.Home.resources
+C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\Index_page.Destination.resources

@@ -122,6 +122,7 @@
             button3.TabIndex = 6;
             button3.Text = "Gmail";
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
@@ -201,6 +202,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(982, 720);
+            ControlBox = false;
             Controls.Add(button6);
             Controls.Add(txtpass);
             Controls.Add(button5);
