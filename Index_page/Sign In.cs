@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace Index_page
@@ -162,12 +163,12 @@ namespace Index_page
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("This Feature Will be added soon");
+            System.Diagnostics.Process.Start("cmd", $"/c start https://www.facebook.com/");
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("This Feature Will be added soon");
+            System.Diagnostics.Process.Start("cmd", $"/c start https://t.ly/flJCU");
         }
     }
 }

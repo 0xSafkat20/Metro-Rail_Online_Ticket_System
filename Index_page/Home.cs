@@ -26,6 +26,9 @@ namespace Index_page
 
         private void button5_Click(object sender, EventArgs e)
         {
+            About_Me about = new About_Me();
+            about.Show();
+            this.Hide();
         }
 
         private void Form1_Load(object sender, EventArgs e)

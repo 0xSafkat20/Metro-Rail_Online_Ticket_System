@@ -33,3 +33,4 @@ C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-window
 C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\Index_page.Ticket.resources
 C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\Index_page.Home.resources
 C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\Index_page.Destination.resources
+C:\Users\CCB\OneDrive\Desktop\C-Sharp_Project\Index_page\obj\Debug\net6.0-windows\Index_page.About_Me.resources

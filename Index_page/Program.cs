@@ -13,7 +13,7 @@ namespace Index_page
             ApplicationConfiguration.Initialize();
                Application.Run(new Home());
              //  Application.Run(new Destination());
-              // Application.Run(new Home());
+            //  Application.Run(new About_Me());
 
         }
     }

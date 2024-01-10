@@ -160,7 +160,7 @@
             // 
             button9.Location = new Point(-1, 1);
             button9.Name = "button9";
-            button9.Size = new Size(94, 42);
+            button9.Size = new Size(83, 42);
             button9.TabIndex = 13;
             button9.Text = "< Back";
             button9.UseVisualStyleBackColor = true;
