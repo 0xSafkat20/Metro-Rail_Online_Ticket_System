@@ -153,7 +153,7 @@
             // button4
             // 
             button4.BackColor = Color.Red;
-            button4.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             button4.ForeColor = SystemColors.HighlightText;
             button4.Location = new Point(710, -4);
             button4.Name = "button4";
