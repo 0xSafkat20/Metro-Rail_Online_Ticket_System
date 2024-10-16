@@ -5,7 +5,7 @@ This project is a C# application designed for a railway ticket booking system. I
 ## Key Pages:
 
 1. **Home**: The landing page where users can navigate through the system.
-   ![Home Page](Project UI/Home.png)
+   ![Home Page](https://github.com/Safkat-Khan/C-Sharp_Project/blob/main/Project%20UI/Home.png)
 
 2. **Log In**: Allows users to log into their accounts.
    ![Log In](path/to/your/image/login.png)
