@@ -8,34 +8,34 @@ This project is a C# application designed for a railway ticket booking system. I
    ![Home Page](https://github.com/Safkat-Khan/C-Sharp_Project/blob/main/Project%20UI/Home.png)
 
 2. **Log In**: Allows users to log into their accounts.
-   ![Log In](path/to/your/image/login.png)
+   ![Log In](https://github.com/Safkat-Khan/C-Sharp_Project/blob/main/Project%20UI/Log%20In.png)
 
 3. **Sign In**: New users can create accounts and register with the system.
-   ![Sign In](path/to/your/image/signin.png)
+   ![Sign In](https://github.com/Safkat-Khan/C-Sharp_Project/blob/main/Project%20UI/Sign%20In.png)
 
 4. **E-Ticket**: Displays booked tickets in electronic format.
-   ![E-Ticket](path/to/your/image/eticket.png)
+   ![E-Ticket](https://github.com/Safkat-Khan/C-Sharp_Project/blob/main/Project%20UI/E-Ticket.png)
 
 5. **Change Password**: Enables users to change their account password.
-   ![Change Password](path/to/your/image/changepassword.png)
+   ![Change Password](https://github.com/Safkat-Khan/C-Sharp_Project/blob/main/Project%20UI/Change%20Password.png)
 
 6. **Admin Dashboard**: Admin overview page for managing the system.
-   ![Admin Dashboard](path/to/your/image/admin_dashboard.png)
+   ![Admin Dashboard](https://github.com/Safkat-Khan/C-Sharp_Project/blob/main/Project%20UI/Admin%20DashBoard.png)
 
 7. **Admin Insert Ticket**: Admin page to add or manage available tickets.
-   ![Admin Insert Ticket](path/to/your/image/admin_insert_ticket.png)
+   ![Admin Insert Ticket](https://github.com/Safkat-Khan/C-Sharp_Project/blob/main/Project%20UI/Insert%20Ticket.png)
 
 8. **Train Schedule**: Provides a view of upcoming train schedules.
-   ![Train Schedule](path/to/your/image/train_schedule.png)
+   ![Train Schedule](https://github.com/Safkat-Khan/C-Sharp_Project/blob/main/Project%20UI/Train%20Schedule.png)
 
 9. **Ticket**: Interface for users to book new tickets.
-   ![Ticket](path/to/your/image/ticket.png)
+   ![Ticket](https://github.com/Safkat-Khan/C-Sharp_Project/blob/main/Project%20UI/Ticket.png)
 
 10. **Payment**: Handles payment for booked tickets.
-   ![Payment](path/to/your/image/payment.png)
+   ![Payment](https://github.com/Safkat-Khan/C-Sharp_Project/blob/main/Project%20UI/Payment.png)
 
-11. **Manage Tickets**: Admin interface to manage and update tickets.
-   ![Manage Tickets](path/to/your/image/manage_tickets.png)
+11. **Developer Interface**: Developer Interface to identify the developer.
+   ![Developer Interface](https://github.com/Safkat-Khan/C-Sharp_Project/blob/main/Project%20UI/Developer.png)
 
 ## Features:
 
