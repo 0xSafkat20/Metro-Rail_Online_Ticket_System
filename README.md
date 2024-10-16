@@ -1,6 +1,6 @@
-# C# Railway Ticket Booking System
+# C# Metro Rail Online Ticket System
 
-This project is a C# application designed for a railway ticket booking system. It provides both user and admin functionalities, including booking tickets, managing user accounts, and handling payments. The system includes 11 key pages, each with distinct functionality.
+This project is a C# application designed for a Metro-rail ticket booking system. It provides both user and admin functionalities, including booking tickets, managing user accounts, and handling payments. The system includes 11 key pages, each with distinct functionality.
 
 ## Key Pages:
 
